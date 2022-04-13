@@ -111,20 +111,22 @@ footer p {
 /* ======= media queries ====== */
 @media (min-width: 768px) and (max-width: 1199.98px) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
   .form {
     padding: 2rem;
   }
   .form form input {
-    width: 60%;
+    width: 50%;
   }
   .form form button {
-    width: 30%;
+    width: 20%;
   }
-
+  .img {
+    margin-bottom: 2rem;
+  }
   .img img {
-    width: 90%;
+    width: 80%;
   }
 
   footer .social-media a {
@@ -136,7 +138,7 @@ footer p {
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   html {
-    font-size: 30px;
+    font-size: 23px;
   }
 
   .form {
@@ -150,20 +152,20 @@ footer p {
     font-size: 0.7rem;
   }
   .form form input {
-    width: 40%;
+    width: 35%;
     padding: 0.7rem 1rem;
   }
   .form form button {
-    width: 20%;
+    width: 15%;
     font-size: 0.6rem;
     padding: 0.7rem 1rem;
   }
   .img {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
 
   .img img {
-    width: 60%;
+    width: 50%;
   }
   footer .social-media {
     margin-bottom: 0rem;
@@ -182,7 +184,7 @@ footer p {
 
 @media (min-width: 1400px) {
   html {
-    font-size: 32px;
+    font-size: 25px;
   }
 
   .form {
@@ -206,7 +208,7 @@ footer p {
     padding: 0.6rem 1rem;
   }
   .img {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
 
   .img img {
